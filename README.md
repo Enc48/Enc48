@@ -78,6 +78,16 @@ operations, and the Linux and Windows servers, VPS, Nginx, and monitoring behind
 - **SMKN 3 Surakarta** — Multimedia · 2013 – 2016
 
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Enc48/Enc48/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Enc48/Enc48/output/snake.svg" />
+  <img alt="Contribution snake" width="100%" src="https://raw.githubusercontent.com/Enc48/Enc48/output/snake.svg" />
+</picture>
+
+</div>
+
+<div align="center">
 <br />
 <sub>Build. Deploy. Automate. Improve.</sub>
 </div>
