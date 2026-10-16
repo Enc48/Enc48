@@ -20,9 +20,12 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Enc48
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          color_snake: "#FF5C1F"
+          color_dots: "#2C2620,#7a3a1a,#c24a1c,#ff7440,#ff5c1f"
           outputs: |
             dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            dist/snake-dark.svg?palette=github-dark&color_snake=#FF5C1F
 
       - name: Publish them to the output branch
         uses: crazy-max/ghaction-github-pages@v5
